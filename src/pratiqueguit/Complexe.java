@@ -49,5 +49,8 @@ public class Complexe {
     {
         return new Complexe(z.reel, -z.imaginaire);
     }
-            
+     public Complexe soustration(Complexe z1, Complexe z2)
+     {
+         return new Complexe(z1.reel-z2.reel,z1.imaginaire-z2.imaginaire);
+     }
 }
